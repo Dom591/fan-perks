@@ -1,0 +1,122 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMO Field Fan Perks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      color: #111;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    .card p {
+      line-height: 1.6;
+    }
+    .bmo { border-top: 6px solid #007a33; }
+    .verizon { border-top: 6px solid #e60000; }
+    .adidas { border-top: 6px solid #000000; }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .btn:hover {
+      opacity: 0.85;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BMO Field Fan Perks</h1>
+  <p>Exclusive rewards, contests, and experiences — all in one place</p>
+</header>
+
+<section class="container">
+  <div class="card bmo">
+    <h2>BMO Goal Rewards™</h2>
+    <p>
+      Earn points every matchday by attending games, using your BMO card, and
+      engaging in stadium activities. Redeem points for tickets, merch, food,
+      and VIP experiences.
+    </p>
+    <a class="btn" href="#">Join BMO Goal Rewards</a>
+  </div>
+
+  <div class="card verizon">
+    <h2>Verizon Data Plan Contests</h2>
+    <p>
+      Verizon customers can enter to win World Cup tickets, VIP seat upgrades,
+      tunnel walk experiences, and instant data rewards just by signing up or
+      scanning in-stadium.
+    </p>
+    <a class="btn" href="#">Enter Verizon Contest</a>
+  </div>
+
+  <div class="card adidas">
+    <h2>adidas Player Fit Lab</h2>
+    <p>
+      Step into a pro-level experience with 3D foot scans, boot testing, skill
+      challenges, and exclusive adidas merchandise only available at BMO Field.
+    </p>
+    <a class="btn" href="#">Explore the Fit Lab</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 BMO Field · Fan Perks Platform · All promotions subject to rules
+</footer>
+
+</body>
+</html>
